@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- =====ANIMATION STYLING===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo"><img src="assets/img/logo.png" alt="My Logo"></a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home home-background" id="home">
+            <div class="bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">Creation Starts by<br>Making a Mess  <span class="home__title-color">Web</span><br> Designer</h1>
+                    <a href="#" class="button">Contact</a>
+                </div>
+        
+                <div class="home__social">
+                    <a href="mailto:akashdeepssamra@gmail.com" class="home__social-icon"><i class='bx bxl-google'></i></a>
+                    <a href="https://www.linkedin.com/in/akashdeep-samra-991b99164/?originalSubdomain=ca" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/fbgAK" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+            </div>
+            <div class="home__img" style="background-image: url('/assets/img/perfil.png');"></div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <img src="assets/img/about-image.png" alt="about-image">
+                <video autoplay loop muted plays-inline><source src="mp4/about.mp4" type="video/mp4"> 
+                </div>
+            </section>
+                <div>
+                    <h2 class="about__subtitle">I am Akash</h2>
+                    <p class="about__text">Web Developer student taking Web Developing in The Southern Alberta Institute of Technology (SAIT). Objective is to obtain knowledge in the web software work field and work as a web development contractor.</p>           
+                </div>                                   
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="assets/img/figma-logo.png" alt="Card 1">
+                  <div class="card-content">
+                    <h2>Figma & Figjam</h2>
+                    <i class='bx bxl-figma skills__icon'></i>
+                  </div>
+                </div>
+            
+                <div class="card">
+                    <img src="assets/img/vscode.png" alt="Card 2">
+                  <div class="card-content">
+                    <h2>Visual Studio Code</h2>
+                    <i class='bx bxl-figma skills__icon'></i>
+                  </div>
+                </div>
+            
+                <div class="card">
+                    <img src="assets/img/github-mark.png" alt="Card ">
+                  <div class="card-content">
+                    <h2>GitHub</h2>
+                    <i class='bx bxl-github skills__icon'></i>
+                </div>
+              </div>            
+                <div>              
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+
+            <div class="work__container bd-grid">
+                <a href="" class="work__img">
+                    <img src="assets/img/work-1.png" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work-2.png" alt="">
+                </a>
+                <a href="" class="work__img">
+                    <img src="assets/img/work-3.png" alt="">
+                </a>
+            </div>
+        </section>
+        
+<!--===== CONTACT =====-->
+<section class="contact section" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact__container bd-grid">
+        <form id="contactForm">
+            <input type="text" id="name" name="name" placeholder="Name" class="contact__input" required>
+            <input type="email" id="email" name="email" placeholder="Email" class="contact__input" required>
+            <textarea id="message" name="message" placeholder="Message" class="contact__input" required></textarea>
+            <input type="submit" value="Send Message" class="button">
+        </form>
+    </div>
+</section>
+
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <img src="assets/img/logo.png" alt="My Logo" class="footer__logo">
+        <div class="footer__social">
+            <a href="mailto:akashdeepssamra@gmail.com" class="home__social-icon"><i class='bx bxl-google'></i></a>
+            <a href="https://www.linkedin.com/in/akashdeep-samra-991b99164/?originalSubdomain=ca" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/fbgAK" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+        </div>
+        <p class="footer__copy">&#169; Akash Samra Web Dev</p>
+    </footer>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
