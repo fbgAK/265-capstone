@@ -1,3 +1,7 @@
+Deploy: 
+
+Netlify: https://akwebdevportfolio.netlify.app/#
+
 Cards:
 
 https://getbootstrap.com/docs/4.0/components/card/
